@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image: url("/themes/apu/img/bg.gif");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+
+body, table, tr, td, th {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 0 0 0 0;
+	margin: 2px 2px 2px 2px;
+}
+
+a, a:link, a:visited, a:active {
+	font-weight: bold;
+	text-decoration: none;
+	color: #6666FF;
+}
+
+a:hover {
+	color: #AAAA55;
+}
+
+form {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+

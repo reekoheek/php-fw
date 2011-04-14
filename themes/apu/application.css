@@ -1,0 +1,172 @@
+@CHARSET "ISO-8859-1";
+
+input.Text, select.Text,option.Text, textarea.Text {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #000000;
+	padding: 1px 2px 1px 2px;
+	margin: 0 0 0 0;
+}
+
+input.Text:hover, select.Text:hover, option.Text:hover, textarea.Text:hover, input.Text.Hover, select.Text.Hover, option.Text.Hover, textarea.Text.Hover {
+	background-color: #EEEEFF;
+}
+
+select.Text {
+	padding: 0 0 0 0;
+}
+
+option.Text {
+	border: 0px;
+}
+
+input.Focus, select.Focus, option.Focus, textarea.Focus {
+	border: 1px solid #00AAFF;
+}
+
+input.Error, select.Error, option.Error, textarea.Error {
+	background-color: #FFEEFF;
+	border: 1px solid red;
+}
+
+input.Button {
+	font-size: 12px;
+	border: 1px solid #AAAAFF;
+	color: #DDDDFF;
+	background-color: #7777BB;
+	padding: 0 5px 0 5px;
+	cursor: pointer;
+	height: 23px;
+}
+
+div.Frame {
+	border: 1px solid #CCCCCC;
+	margin-bottom: 3px;
+	background-color: #F9F9FF;
+}
+
+div.Frame .Title {
+	background-color: #7777BB;
+	font-weight: bold;
+	color: #DDDDFF;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 4px 4px 4px 4px;
+}
+
+div.Frame .Message {
+	padding: 5px 3px 5px 3px;
+	background-color: #FFFFDD;
+	border-bottom: 1px solid #CCCCCC;
+}
+	
+div.Frame a.Menu {
+	background-color: #cee2f1;
+	background-image: url("/themes/apu/img/background_menu.gif");
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+div.Frame a.Menu:hover {
+	color: #f8f7c9;
+}
+
+table.Form, table.Form tbody, table.Form tr, table.Form th, table.Form td {
+	padding: 0 0 0 0;
+	border-collapse: collapse;
+}
+
+table.Form td {
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	border-collapse: collapse;
+}
+
+td.Label {
+	font-weight: bold;	
+}
+
+td.Command {
+	text-align: right;
+}
+
+#loader {
+	
+}
+
+table.List {
+	border-collapse: collapse;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+table.List td {
+	border: 1px solid #CCCCCC;
+	padding: 2px 4px 2px 4px;
+}
+
+table.List th {
+	background-color: #7777BB;
+	color: #DDDDFF;
+	border: 1px solid #CCCCCC;
+	padding: 2px 4px 2px 4px;
+}
+
+table.List th.Sortable:hover, table.List th.Sortable.Hover {
+	cursor: pointer;
+	background-color: #CCCCDD;
+}
+
+table.List th.Sortable.SortedDESC {
+	background-image: url('/themes/apu/img/desc.gif');
+	background-repeat:no-repeat;
+	background-position:3px;
+	padding-left: 15px;
+}
+
+table.List th.Sortable.SortedASC {
+	background-image: url('/themes/apu/img/asc.gif');
+	background-repeat:no-repeat;
+	background-position:3px;
+	padding-left: 15px;
+}
+
+table.List img {
+	text-decoration: none;
+	border: 0px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+table.List tr.Row0 {
+	background-color: #F9F9FF;
+}
+
+table.List tr.Row1 {
+	background-color: #DDDDFF;
+}
+
+table.List tr.Row0:hover, table.List tr.Row1:hover, table.List tr.Row0.Hover, table.List tr.Row1.Hover {
+	cursor: pointer;
+	background-color: #EEEEFF;
+}
+
+div.AutocompleterPopup {
+	background-color: #FFFFFF;
+	border: 1px solid #00AAFF;
+}
+
+div.AutocompleterPopup ul {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	list-style-image: none;
+}
+
+div.AutocompleterPopup li {
+	list-style: none;
+}
+
+div.AutocompleterPopup li.selected {
+	padding: 2px 2px 2px 2px; 
+	background-color: #EEEEFF; 
+}
